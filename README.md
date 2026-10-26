@@ -57,33 +57,33 @@ This tool is intended **strictly** for authorized security research, ethical hac
 ```bash
 pip install requests
 
-##Installation
+## Installation
 
 git clone https://github.com/ShadowDayzOffSec/orbit.git
 cd orbit
 pip install requests
 
-##Usage
+## Usage
 
 python orbit.py
 
 
-##1. Local Ollama Mode (Recommended)
+## 1. Local Ollama Mode (Recommended)
 
-#Ensure Ollama is running:
+# Ensure Ollama is running:
 
 ollama serve
-#Launch ORBIT:
+# Launch ORBIT:
 python orbit.py
-#Select option 1 (Local Ollama)
+# Select option 1 (Local Ollama)
 Choose one of your installed models from the list
-#Select a mode (Mode 5 is recommended for maximum research capability)
+# Select a mode (Mode 5 is recommended for maximum research capability)
 ORBIT will create a new model (example naming format):
 dolphin-phi-orbit-m5
-#Run the new model at any time:
+# Run the new model at any time:
 ollama run dolphin-phi-orbit-m5
 
-##2. Cloud Mode
+## 2. Cloud Mode
 Select option 2 (Cloud)
 Choose your provider:
 1 → OpenAI
@@ -95,7 +95,7 @@ Enter a model name or press Enter to use the default
 Select a mode
 Begin interacting with the model
 
-##Modes
+## Modes
 Mode
 Name
 Focus
